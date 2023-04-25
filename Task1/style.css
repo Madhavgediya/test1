@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.header {
+    border: 1px solid red;
+}
+
+@media screen and (min-width:992px) {
+    
+.navbar-nav,
+.navbar-collapse,
+.navbar-expand-lg,
+.navbar,
+.container-fluid {
+    flex-direction: column;
+}
+}
+.left-div {
+    position: sticky;
+    top: -1vh;
+    /* font-size: 2.5vw; */
+    border: 1px solid blue;
+    width: 18vw;
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.left-div table {
+    padding: 0px;
+    margin: 0px;
+    width: 51vh;
+}
+ul li
+{
+    list-style-type: none;
+}
+
+.center-d {
+    border: 1px solid red;
+    width: 51vw;
+}
+
+.second-div {
+    overflow-y: scroll;
+    margin-top: 2vh;
+    border: 1px solid rgb(251, 1, 1);
+    height: 54vh;
+    padding: 1vh;
+}
+
+.right-d {
+    border: 1px solid red;
+}
+
+.right-div {
+    overflow-y: scroll;
+    border: 1px solid rgb(255, 0, 0);
+    /* width: 24.4vw; */
+    height: 90vh;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-div {
+    position: absolute;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.header-div {
+    text-align: center;
+    /* font-size: 5vw; */
+    border: 1px solid rgb(255, 0, 0);
+    width: 100vw;
+    height: 12vh;
+}
+
+/* .left-div-table td */
+/* {
+    width: 100vw;
+    height: 10vh;
+    border: 0.5vh solid rgb(139, 139, 223);
+} */
+.center-div {
+    position: absolute;
+    top: 15vh;
+    /* font-size: 1.3vw; */
+    left: 21.1vw;
+    border: 1px solid rgb(22, 86, 22);
+    width: 59vw;
+    height: 77vh;
+}
+
+/* fisrt div */
+.first-div {
+    /* position: sticky;
+    top: 0vh; */
+    /* font-size: 2vw; */
+    border: 1px solid rgb(22, 86, 22);
+    width: 59vw;
+    height: 30vh;
+}
+
+.table-header {
+    padding: 0vh;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+}
+
+.table-header th {
+    text-align: center;
+    width: 20vw;
+    /* font-size: 1.5vw; */
+}
+
+.table-data {
+    overflow-y: scroll;
+    height: 23vh;
+}
+
+.table-data td {
+    width: 20vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.first-div-table button {
+    /* font-size: 1vw; */
+}
+
+.first-div-table th {
+    text-align: center;
+    width: 20vw;
+    /* font-size: 1.5vw; */
+}
+
+.first-div-table td {
+    margin: 7px;
+    text-align: center;
+    padding: 0.7vh;
+}
+
+.first-div-table td,
+th {
+    border-bottom: 0.2vw solid rgb(255, 0, 0);
+    padding: 1vh;
+}
+
+.first-div-table {
+    padding: 0vh;
+    text-align: center;
+}
+
+/* second div */
+
+
+
+.footer-div {
+    position: absolute;
+    top: 92vh;
+    bottom: 0;
+    border: 1px solid rgb(195, 0, 255);
+    width: 100vw;
+    text-align: center;
+    padding-top: 6px;
+    /* font-size: 3vh; */
+    color: brown;
+}

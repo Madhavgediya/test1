@@ -1,0 +1,169 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.main-div
+{
+    position: absolute;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+.header-div
+{
+    text-align: center;
+    font-size: 5vw;
+    border: 1px solid rgb(255, 0, 0);
+    width: 100vw;
+    height: 12vh;
+}
+.left-div
+{
+    position: sticky;
+    top: -1vh;
+    font-size: 2.5vw;
+    border: 1px solid blue;
+    width: 20vw;
+    height: 79.5vh;
+    overflow-y: scroll;     
+}
+.left-div-table td
+{
+    width: 100vw;
+    height: 10vh;
+    border: 0.5vh solid rgb(139, 139, 223);
+}
+.center-div
+{
+    position:absolute;
+    top: 12.2vh;
+    font-size: 1.3vw;
+    left: 20.1vw;
+    border: 1px solid rgb(22, 86, 22);
+    width: 59vw;
+    height: 79.5vh;
+}
+/* fisrt div */
+.first-div
+{
+    /* position: sticky;
+    top: 0vh; */
+    /* font-size: 2vw; */
+    border: 1px solid rgb(22, 86, 22);
+    width: 59vw;
+    height: 30vh;
+}
+.table-header
+{
+    padding: 0vh;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+}
+.table-header th
+{
+    text-align: center;
+    width: 20vw;
+    font-size: 1.5vw;
+}
+.table-data
+{
+    overflow-y: scroll;
+    height: 23vh;
+}
+.table-data td
+{
+    width: 20vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.first-div-table button
+{
+    font-size: 1vw;
+}
+.first-div-table th
+{
+    text-align: center;
+    width: 20vw;
+    font-size: 1.5vw;
+}
+.first-div-table td
+{
+    margin: 7px;
+    text-align: center;
+    padding: 0.7vh;
+}
+.first-div-table td,th
+{
+    border-bottom: 0.2vw solid rgb(255, 0, 0);
+    padding: 1vh;
+}
+.first-div-table 
+{
+    padding: 0vh;
+    text-align: center;
+}
+/* second div */
+.second-div
+{
+    overflow-y: scroll;
+    font-size: 3vw;
+    margin-top: 1vh;
+    border: 1px solid rgb(22, 86, 22);
+    width: 59vw;
+    height: 47vh;
+}
+
+.right-div
+{
+    overflow-y: scroll;
+    position: absolute;
+    top: 12.2vh;
+    right: 0vw;
+    font-size: 3vw;
+    border: 1px solid rgb(255, 0, 0);
+    width: 20.4vw;
+    height: 79.5vh;
+    float: right;
+}
+.footer-div
+{
+    position: absolute;
+    top: 92vh;
+    bottom: 0;
+    border: 1px solid rgb(195, 0, 255);
+    width: 100vw;
+    height: 6vh;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 5vh;
+    color: brown;
+}
+
+@media (max-width:500px) {
+    #c1
+    {
+        display: inline-block;
+    }
+}
+@media (max-width:500px) {
+    #c2
+    {
+        display: inline-block;
+    }
+}
+@media (max-width:500px) {
+    #c3
+    {
+        display: inline-block;
+    }
+}
+@media (max-width:500px) {
+    #c4
+    {
+        display: inline-block ;
+    }        
+}
